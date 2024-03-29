@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Ship To It - Company Packing List</title>
+        <link rel="stylesheet" href="htmltables.css">
     </head>
       <body>
       
@@ -24,14 +25,14 @@
           </thead>
           <tbody>
             <tr>
-              <th>Adam's Greenworks</th>
+              <th colspan="">Adam's Greenworks</th>
               <td>14</td>
               <td>Package Items</td>
             </tr>
             <tr>
               <th>Davie's Burgers</th>
               <td>2</td>
-              <td>Send Invoice</td>
+              <td rowspan="">Send Invoice</td>
             </tr>
             <tr>
               <th>Baker's Bike Shop</th>
@@ -40,7 +41,7 @@
             </tr>
             <tr>
               <th>Miss Sally's Southern</th>
-              <td>4</td>
+              <td rowspan="">4</td>
               <td>Ship</td>
             </tr>
             <tr>
@@ -53,6 +54,10 @@
               <td>1</td>
               <td>Enter Order</td>
             </tr>
+            <tfoot>
+              <td>Total</td>
+              <td>28</td>
+            </tfoot>
             </tbody>
         </table>
 </body>
